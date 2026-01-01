@@ -1,0 +1,40 @@
+.feedback-form {
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 296px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* ТЕКСТ */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.form-input-email {
+    margin-bottom: 8px;
+}
+
+.form-input-message {
+    margin-bottom: 16px;
+}
+
+.form-submit-button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+    /* ТЕКСТ */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
